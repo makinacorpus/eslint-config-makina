@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-makina",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:makinacorpus/eslint-config-makina.git"
+  },
+  "keywords": [],
+  "scripts": {
+    "version": "git changelog -t $npm_package_version && git add CHANGELOG.md"
+  },
+  "author": {
+    "name": "Makina Corpus",
+    "url": "https://www.makina-corpus.com"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "~4.18.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "~16.1.0",
+    "eslint-plugin-import": "~2.8.0",
+    "eslint-plugin-jsx-a11y": "~6.0.3",
+    "eslint-plugin-react": "~7.6.1"
+  }
+}
