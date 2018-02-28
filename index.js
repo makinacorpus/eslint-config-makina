@@ -7,6 +7,7 @@ module.exports = {
   extends: 'airbnb',
   env: {
     browser: true,
+    jest: true,
   },
   rules: {
     'arrow-parens':                      [error, 'as-needed'],
