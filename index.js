@@ -19,6 +19,7 @@ module.exports = {
 
     'import/extensions':                 [warn],
     'import/no-extraneous-dependencies': [warn],
+    'import/no-named-as-default':        [off],
     'import/no-unresolved':              [warn],
 
     'jsx-a11y/anchor-is-valid':          [error, { specialLink: ['to'] }],
