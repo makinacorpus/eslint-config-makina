@@ -1,4 +1,9 @@
 
+0.3.0 / 2018-03-06
+==================
+
+  * Allow using named export as var name for default import
+
 0.2.0 / 2018-02-28
 ==================
 
