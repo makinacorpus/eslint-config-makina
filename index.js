@@ -35,7 +35,7 @@ module.exports = {
     'jsx-a11y/label-has-for':            [error, { required: { some: ['nesting', 'id'] }}],
 
     'react/jsx-filename-extension':      [warn, { 'extensions': ['.js', '.jsx'] }],
-    'react/no-unescaped-entities':       [warn],
+    'react/no-unescaped-entities':       [off],
     'react/prefer-stateless-function':   [warn],
     'react/prop-types':                  [off],
 
