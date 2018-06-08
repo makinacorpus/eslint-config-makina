@@ -9,6 +9,15 @@ module.exports = {
     browser: true,
     jest: true,
   },
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: "module",
+    allowImportExportEverywhere: false,
+    codeFrame: false
+  },
+  plugins: [
+    'babel',
+  ],
   rules: {
     'arrow-parens':                      [error, 'as-needed'],
     'camelcase':                         [warn],
