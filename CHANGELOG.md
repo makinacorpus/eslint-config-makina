@@ -1,4 +1,12 @@
 
+0.4.0 / 2018-06-08
+==================
+
+  * Allow unescaped html entities in jsx
+  * Allow label linking to field by nesting OR id
+  * Switch to babel code parser to allow class properties parsing
+  * Upgrade plugins React & Import to @latest
+
 0.3.0 / 2018-03-06
 ==================
 
