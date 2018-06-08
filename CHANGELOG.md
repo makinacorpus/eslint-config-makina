@@ -1,4 +1,9 @@
 
+0.4.2 / 2018-06-09
+==================
+
+  * Rollback babel-eslint from 8.2.3 to 8.2.2 (issue with template strings)
+
 0.4.1 / 2018-06-08
 ==================
 
