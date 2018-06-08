@@ -1,4 +1,10 @@
 
+0.4.1 / 2018-06-08
+==================
+
+  * Bundle package-lock
+  * Upgrade eslint-plugin-react dep to latest release
+
 0.4.0 / 2018-06-08
 ==================
 
