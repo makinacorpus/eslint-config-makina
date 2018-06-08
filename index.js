@@ -32,6 +32,7 @@ module.exports = {
     'import/no-unresolved':              [warn],
 
     'jsx-a11y/anchor-is-valid':          [error, { specialLink: ['to'] }],
+    'jsx-a11y/label-has-for':            [error, { required: { some: ['nesting', 'id'] }}],
 
     'react/jsx-filename-extension':      [warn, { 'extensions': ['.js', '.jsx'] }],
     'react/no-unescaped-entities':       [warn],
