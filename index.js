@@ -27,7 +27,7 @@ module.exports = {
     'space-before-function-paren':       [error, always],
 
     'import/extensions':                 [warn],
-    'import/no-extraneous-dependencies': [warn],
+    'import/no-extraneous-dependencies': [warn, { 'devDependencies': ['**/*.test.js', '**/*.spec.js', , '**/*.stories.js']}],
     'import/no-named-as-default':        [off],
     'import/no-unresolved':              [warn],
 
