@@ -1,4 +1,9 @@
 
+0.4.3 / 2018-07-01
+==================
+
+  * Allow tests, specs & stories to have dependencies from devDeps
+
 0.4.2 / 2018-06-09
 ==================
 
