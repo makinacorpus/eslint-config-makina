@@ -23,6 +23,7 @@ module.exports = {
     'camelcase':                         [warn],
     'no-param-reassign':                 [warn],
     'object-curly-newline':              [warn, { consistent: true }],
+    'implicit-arrow-linebreak':          [off],
     'prefer-template':                   [warn],
     'space-before-function-paren':       [error, always],
 
