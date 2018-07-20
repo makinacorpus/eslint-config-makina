@@ -1,4 +1,11 @@
 
+0.7.1 / 2018-07-21
+==================
+
+  * Add key-spacing rules to allow object property values alignment
+  * Soften eslint peerDependency
+  * Allow implicit-arrow-linebreak
+
 0.4.3 / 2018-07-01
 ==================
 
