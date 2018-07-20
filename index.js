@@ -40,6 +40,18 @@ module.exports = {
     'react/prefer-stateless-function':   [warn],
     'react/prop-types':                  [off],
 
+    'key-spacing': [
+      error,
+      {
+        singleLine: {
+          mode: 'strict',
+        },
+        multiLine: {
+          mode: 'minimum',
+        },
+      },
+    ],
+
     'no-multi-spaces': [
       warn,
       {
