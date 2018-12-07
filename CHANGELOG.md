@@ -1,4 +1,11 @@
 
+0.8.2 / 2018-12-07
+==================
+
+  * Add npm script for linting
+  * Enforce linting on rules file
+  * Set ESLint as dev dependency to allow self linting
+
 0.8.1 / 2018-12-07
 ==================
 
