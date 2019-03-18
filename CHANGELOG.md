@@ -1,4 +1,11 @@
 
+0.9.0 / 2019-03-18
+==================
+
+  * Upgrade all dependencies to latest release
+  * Add & setup React Hooks plugin
+  * Create README file
+
 0.8.2 / 2018-12-07
 ==================
 
