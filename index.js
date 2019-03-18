@@ -17,6 +17,7 @@ module.exports = {
   },
   plugins: [
     'babel',
+    'react-hooks',
   ],
   rules: {
     'arrow-parens':                      [error, 'as-needed'],
@@ -40,6 +41,9 @@ module.exports = {
     'react/no-unescaped-entities':       [off],
     'react/prefer-stateless-function':   [warn],
     'react/prop-types':                  [off],
+
+    'react-hooks/exhaustive-deps':       [warn],
+    'react-hooks/rules-of-hooks':        [warn],
 
     'key-spacing': [error, {
       singleLine: { mode: 'strict' },
