@@ -1,4 +1,10 @@
 
+1.0.0 / 2019-07-25
+==================
+
+  * Upgrade eslint-plugin-import and eslint-plugin-react to latest
+  * Do all patch upgrade of dependencies
+
 0.11.0 / 2019-04-18
 ===================
 
