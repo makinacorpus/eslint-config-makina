@@ -4,7 +4,10 @@ const off    = 'off';
 const always = 'always';
 
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+    'react-app',
+    'airbnb',
+  ],
   env: {
     browser: true,
     jest: true,
