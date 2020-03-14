@@ -1,4 +1,9 @@
 
+2.1.0 / 2020-03-14
+==================
+
+  * Load react-hooks plugin through airbnb config
+
 2.0.0 / 2020-03-14
 ==================
 
