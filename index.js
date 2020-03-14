@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     'react-app',
     'airbnb',
+    'airbnb/hooks',
   ],
   env: {
     browser: true,
@@ -18,10 +19,7 @@ module.exports = {
     allowImportExportEverywhere: false,
     codeFrame: false,
   },
-  plugins: [
-    'babel',
-    'react-hooks',
-  ],
+  plugins: ['babel'],
   rules: {
     'arrow-parens':                      [error, 'as-needed'],
     'camelcase':                         [warn],
