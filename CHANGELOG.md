@@ -1,4 +1,10 @@
 
+2.0.0 / 2020-03-14
+==================
+
+  * Adapt rules to config upgrade
+  * Upgrade all dependencies
+
 1.0.2 / 2020-03-13
 ==================
 
