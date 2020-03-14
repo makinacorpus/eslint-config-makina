@@ -41,9 +41,12 @@ module.exports = {
 
     'react/jsx-filename-extension':      [warn, { extensions: ['.js', '.jsx'] }],
     'react/jsx-one-expression-per-line': [off],
+    'react/jsx-props-no-spreading':      [off],
     'react/no-unescaped-entities':       [off],
     'react/prefer-stateless-function':   [warn],
     'react/prop-types':                  [off],
+    'react/state-in-constructor':        [off],
+    'react/static-property-placement':   [off],
 
     'react-hooks/exhaustive-deps':       [warn],
     'react-hooks/rules-of-hooks':        [warn],
