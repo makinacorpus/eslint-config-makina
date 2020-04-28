@@ -5,7 +5,7 @@ This package provides [Makina Corpus][]'s `.eslintrc` as an extensible shared co
 ## Install
 
 ```sh
-npm install eslint-config-makina
+npx install-peerdeps --dev eslint-config-makina
 ```
 
 Then, add this to your `.eslintrc` file:
@@ -20,7 +20,7 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: 'standard',
+  extends: 'makina',
 };
 ```
 
